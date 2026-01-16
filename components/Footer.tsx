@@ -2,7 +2,7 @@ import { Linkedin, Facebook, Twitter } from "lucide-react";
 
 function Footer() {
   return (
-    <footer className="relative bg-[#0A142F] text-white mt-16">
+    <footer className="relative bg-[#0A142F] text-white mt-56">
       <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-3  gap-8 text-center md:text-left">
         <div>
           <h1 className="font-semibold text-lg mb-4">Title</h1>
@@ -35,9 +35,9 @@ function Footer() {
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-6 flex flex-col-reverse sm:flex-row items-center justify-between gap-4">
           <div className="flex gap-4">
-            <Twitter />
-            <Linkedin />
-            <Facebook />
+            <Twitter className="cursor-pointer" />
+            <Linkedin className="cursor-pointer" />
+            <Facebook className="cursor-pointer" />
           </div>
 
           <div className="flex flex-wrap gap-4 text-sm text-gray-300 justify-center">

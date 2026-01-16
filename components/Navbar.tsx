@@ -8,6 +8,7 @@ import { Instagram, Facebook, Twitter } from "lucide-react";
 
 function Navbar() {
   const [show, setShow] = useState(false);
+
   return (
     <>
       <div className="sticky top-0 bg-white z-50 ">

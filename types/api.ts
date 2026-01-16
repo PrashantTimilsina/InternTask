@@ -11,3 +11,10 @@ type categories =
 export type CategoryArray = {
   categories: categories[];
 };
+export interface Product {
+  image: string;
+  brand: string;
+  description: string;
+  price: string;
+  category: string;
+}

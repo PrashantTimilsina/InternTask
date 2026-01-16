@@ -1,4 +1,4 @@
-import { CategoryArray } from "@/types/category";
+import { CategoryArray } from "@/types/api";
 import CategoriesClient from "./CategoriesClient";
 
 export default async function Categories({ categories }: CategoryArray) {
