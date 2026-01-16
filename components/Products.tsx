@@ -73,7 +73,7 @@ function Products() {
 
       <div className="relative grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-4">
         {products.map((product, i) => (
-          <Link key={i} href={`/${product.brand}`}>
+          <Link key={i} href={`/product/${product.brand}`}>
             <div className="rounded-md p-4">
               <div className="sm:w-full h-44 mb-4 bg-gray-100 rounded relative">
                 <Image
